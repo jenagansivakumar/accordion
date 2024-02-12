@@ -20,3 +20,5 @@ const data = [
     answer: "ipsem4",
   },
 ];
+
+export default data;
