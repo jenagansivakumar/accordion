@@ -1,23 +1,23 @@
 const data = [
   {
     id: "1",
-    question: "lorem",
-    answer: "ipsem",
+    question: "question 1",
+    answer: "answer 1",
   },
   {
     id: "2",
-    question: "lorem 2",
-    answer: "ipsem2",
+    question: "question 2",
+    answer: "answer2",
   },
   {
     id: "3",
-    question: "lorem 3",
-    answer: "ipsem3",
+    question: "question 3",
+    answer: "answer3",
   },
   {
     id: "4",
-    question: "lorem 4",
-    answer: "ipsem4",
+    question: "question 4",
+    answer: "answer4",
   },
 ];
 
