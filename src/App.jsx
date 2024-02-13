@@ -13,6 +13,7 @@ function App() {
   console.log(selected);
   return (
     <div className="wrapper">
+      <button> Enable Multi-Selection</button>
       <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
