@@ -1,7 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-image: url("https://www.transparenttextures.com/patterns/starfield.png");
+}
+
 .wrapper {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -10,11 +18,18 @@
 
 .wrapper button {
   padding: 10px 20px;
-  background: #614101;
-  color: #fff;
+  background: #1e1f24;
+  color: #ffffff;
   font-weight: bold;
   font-size: 20px;
+  border: none;
   cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.wrapper button:hover {
+  background-color: #614101;
 }
 
 .accordian {
@@ -22,9 +37,16 @@
 }
 
 .item {
-  background: #614101;
+  background: #1e1f24;
   margin-bottom: 10px;
   padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #614101;
+  transition: border-color 0.3s ease;
+}
+
+.item:hover {
+  border-color: #ffffff;
 }
 
 .title {
