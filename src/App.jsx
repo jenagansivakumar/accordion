@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 import data from "./components/accordion/data";
+import "./components/accordion/styles.css";
 
 function App() {
   const [selected, setSelected] = useState(null);
   function handleSingleSelection(getCurrentID) {
     console.log(getCurrentID);
-    setSelected(getCurrentID);
+    setSelected(getCurrentID === selected ? null : getCurrentID);
   }
 
   console.log(selected);
